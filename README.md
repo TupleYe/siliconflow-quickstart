@@ -2,6 +2,12 @@
 
 > 国内可直接访问的大模型 API 平台，支持 DeepSeek、GLM、Kimi、Qwen 等主流模型。
 
+## 🎁 [立即注册领取免费额度 →](https://cloud.siliconflow.cn/i/49d7wuce)
+
+> 注册即送 2000 万 Tokens，新用户专享，邀请码：**49d7wuce**
+
+---
+
 ## 为什么选硅基流动
 
 - 🚀 **高速推理**：自研推理引擎，DeepSeek-V4-Flash 延迟低
@@ -13,7 +19,9 @@
 
 ### 1. 注册 & 拿 API Key
 
-访问 https://cloud.siliconflow.cn/ 注册账号，进入「API Keys」创建密钥。
+👉 点击这里注册：[https://cloud.siliconflow.cn/i/49d7wuce](https://cloud.siliconflow.cn/i/49d7wuce)
+
+注册成功后进入「API Keys」创建密钥。
 
 ### 2. Python 示例
 
@@ -21,7 +29,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="YOUR_SILICONFLOW_KEY",
+    api_key="***",
     base_url="https://api.siliconflow.cn/v1",
 )
 
@@ -48,5 +56,11 @@ print(resp.choices[0].message.content)
 - 💼 企业级私有化部署
 
 ---
+
+## 📣 推荐有奖
+
+通过下方链接注册，双方均可获得额外奖励额度：
+
+👉 **https://cloud.siliconflow.cn/i/49d7wuce**
 
 *本文首发于 Gitee / GitHub，更多内容持续更新。*
